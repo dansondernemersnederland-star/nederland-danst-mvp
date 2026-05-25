@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "Nederland Danst",
   description: "Nederland Danst PWA",
@@ -21,10 +23,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="nl">
-      <head>
-        <link rel="apple-touch-icon" href="/icons/icon-192.png" />
-        <link rel="icon" href="/icons/icon-192.png" />
-      </head>
       <body>{children}</body>
     </html>
   );
